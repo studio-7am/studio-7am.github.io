@@ -1,0 +1,19 @@
+{
+  "name": "studio7",
+  "version": "0.0.0",
+  "authors": [
+    "bjsmth <bj7smth@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "latest",
+    "semantic-ui": "latest"
+  }
+}
