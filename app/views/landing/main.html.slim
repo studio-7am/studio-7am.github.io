@@ -1,5 +1,12 @@
 - provide(:title, 'Landing' )
-h1
-  | Landing#main
-p
-  | Find me in app/views/landing/main.html.erb
+
+= render 'landing/nav' 
+= render 'landing/header' 
+= render 'landing/hello'
+= render 'landing/price' 
+= render 'landing/features' 
+= render 'landing/testmonials' 
+= render 'landing/subscribe'
+<!-- = render 'landing/latest' --> 
+= render 'landing/footer' 
+
