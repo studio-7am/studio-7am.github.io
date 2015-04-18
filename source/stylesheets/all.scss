@@ -3,6 +3,9 @@
  *= require_self
  */
 
+ @import "nprogress";
+
+
  section {
  	padding-top: 25px;
  	padding-bottom: 25px;
@@ -13,14 +16,12 @@
  }
  .navbar-studio {
  	margin: 0;
- 	border-bottom-color: gray;
  }
 
  .jumbotron {
  	background-color: #14AA9F;
- 	h1 {
- 		font-weight: bold;
- 	}
+ 	color: #fff;
+ 	font-weight: bold;
  }
 
  .container {
