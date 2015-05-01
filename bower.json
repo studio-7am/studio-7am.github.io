@@ -15,7 +15,10 @@
   ],
   "dependencies": {
     "bootstrap-sass": "latest",
-    "nprogress": "latest"
+    "nprogress": "latest",
+    "angular": "latest",
+    "angular-resource": "latest",
+    "angular-route": "latest"
   }
 }
 

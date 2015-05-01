@@ -2,9 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- FACEBOOK -->
+    <meta property="og:type" content="profile"/>
+    <meta property="profile:first_name" content="Вениамин"/>
+    <meta property="profile:last_name" content="Чеботарев"/>
+    <meta property="profile:username" content="Benjamin"/>
+    <meta property="og:title" content="Веб студия '7 утра'"/>
+    <meta property="og:description" content="Создание сайтов от 70$ - Лендинги, интернет - магазины, веб приложения"/>
+    <meta property="og:image" content="http://7-am.ru/images/logo.jpg"/>
+    <meta property="og:url" content="http://7-am.ru"/>
+    <meta property="og:site_name" content="Веб студия '7 утра"/>
+    <meta property="og:see_also" content="http://www.7-am.ru"/>
+    <meta property="fb:admins" content="100007546444647"/>
     
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
@@ -16,5 +27,34 @@
   <body class="<%= page_classes %>">
     <%= partial 'layouts/nav' %>
     <%= yield %>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter29994474 = new Ya.Metrika({id:29994474,
+                        webvisor:true,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="//mc.yandex.ru/watch/29994474" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    
   </body>
 </html>
