@@ -14,7 +14,34 @@ title: Веб студия "7 утра" - Создание сайтов от 70$
   </div>
 </div>
 
-<section id="features">
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+	<% page_articles.each_with_index do |article, i| %>
+	  <h4><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h4>
+	  <!-- use article.summary(250) if you have Nokogiri available to show just
+	       the first 250 characters -->
+	  <%= article.summary(140, '...') %>
+	  <%= link_to 'Читать', article, class: 'btn btn-default btn-sm' %>
+	  <hr>
+	<% end %>
+</div>
+<div class="col-lg-6">
+	
+
+	<div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/permalink.php?story_fbid=1073823642633849&amp;id=907632075919674" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/permalink.php?story_fbid=1073823642633849&amp;id=907632075919674"><p>http://7-am.ru/</p>Posted by <a href="https://www.facebook.com/pages/%D0%A1%D0%B5%D0%BC%D1%8C-%D1%83%D1%82%D1%80%D0%B0/907632075919674">Семь утра</a> on <a href="https://www.facebook.com/permalink.php?story_fbid=1073823642633849&amp;id=907632075919674">1 Май 2015 г.</a></blockquote></div></div>
+
+
+          
+
+</div>
+
+
+</div>
+</div>
+
+
+<!--section id="features">
 	<div class="container">
 	  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -23,4 +50,4 @@ title: Веб студия "7 утра" - Создание сайтов от 70$
 	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	 </div>
-</section>
+</section-->
