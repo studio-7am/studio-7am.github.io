@@ -6,6 +6,9 @@ gem "middleman", "~>3.3.10"
 gem 'middleman-deploy', '~> 1.0'
 gem "middleman-blog"
 gem "nokogiri"
+
+gem 'middleman-angular-templates', git: 'git@github.com:damrbaby/middleman-angular-templates.git'
+
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 

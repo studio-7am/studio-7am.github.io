@@ -1,3 +1,10 @@
+GIT
+  remote: git@github.com:damrbaby/middleman-angular-templates.git
+  revision: 92993b1ede985cf34036f5efb3e43cc4200ba843
+  specs:
+    middleman-angular-templates (0.0.1)
+      middleman-core (>= 3.1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -140,6 +147,7 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 3.3.10)
+  middleman-angular-templates!
   middleman-blog
   middleman-deploy (~> 1.0)
   middleman-livereload (~> 3.1.0)
