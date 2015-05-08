@@ -2,7 +2,7 @@
 //= require bootstrap-sass/assets/javascripts/bootstrap.min.js
 
 
-//= require jquery.nicescroll/jquery.nicescroll.min.js
+//= require jquery.nicescroll/jquery.nicescroll.js
 //= require nprogress/nprogress.js
 //= require nprogress.js
 
