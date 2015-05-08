@@ -18,7 +18,9 @@
     "nprogress": "latest",
     "angular": "latest",
     "angular-resource": "latest",
-    "angular-route": "latest"
+    "angular-route": "latest",
+    "jquery.nicescroll": "latest",
+    "jquery.masonry": "latest"
   }
 }
 

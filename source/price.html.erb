@@ -14,3 +14,33 @@ title: Цены - Веб студия "7 утра" - Создание сайто
   </div>
 </div>
 
+ <div class="container">
+	<div class="row">
+       <% data.tariffs.each do |t| %>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+			<!-- PRICE ITEM -->
+					<div class="panel price panel-<%= t.color %>">
+						<div class="panel-heading arrow_box text-center ">
+						<h3><%= t.name %></h3>
+						</div>
+						<div class="panel-body text-center">
+							<p class="lead" style="font-size:40px">
+							<strong>
+   						       $<%= t.price %>
+							</strong></p>
+						</div>
+						<ul class="list-group list-group-flush text-center">
+                         <% t.items.each do |t| %>
+							<li class="list-group-item"><i class="icon-ok text-success"></i><%= t.name %></li>
+                            <%end%>
+						</ul>
+						<div class="panel-footer">
+							<a class="btn btn-lg btn-block btn-<%= t.color %>" href="#">Заказать</a>
+						</div>
+					</div>
+			<!-- /PRICE ITEM -->
+		</div>
+        <% end %>
+	</div>
+</div>
+

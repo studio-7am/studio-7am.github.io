@@ -4,16 +4,10 @@
 
 var appServices = angular.module('appServices', ['ngResource']);
 
-appServices.factory('User', ['$resource',
-  function($resource){
-    return $resource("http://api.7-am.ru/v1/users", {}, {
-      query: { method: "GET", isArray: true }
-    });
-  }]);
 
-appServices.factory('Post', ['$resource',
+appServices.factory('Tariff', ['$resource',
   function($resource){
-    return $resource("http://api.7-am.ru/v1/users/1/sites/1/posts", {}, {
+    return $resource("/tariffs.json", {}, {
       query: { method: "GET", isArray: true }
     });
   }]);

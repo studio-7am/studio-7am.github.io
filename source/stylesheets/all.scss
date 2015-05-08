@@ -1,11 +1,35 @@
+
  /*
  *= require bootstrap-sass
  *= require_self
  */
 
- @import "nprogress";
+ @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic&subset=latin,cyrillic);
 
+@import "nprogress";
+@import "price";
 
+body {
+	
+}
+
+.item {
+  float: left;
+}
+h1, h2, h3 {
+ 	font-family: 'Ubuntu Mono', ;
+ 	a {
+ 		&:hover {
+          text-decoration: none;
+          opacity: 0.8;
+          background-color: inherit;
+ 		}
+ 	}
+}
+i {
+	margin-right: 10px;
+	width: 10px;
+}
  section {
  	padding-top: 25px;
  	padding-bottom: 25px;
@@ -16,10 +40,24 @@
  }
  .navbar-studio {
  	margin: 0;
+ 	background-color: #14AA9F;
+ 	.navbar-brand {
+ 		color: #292F33;
+ 		&:hover, &:active, &:focus {
+ 			background-color: inherit;
+ 			outline: none;
+ 		}
+ 	}
  	.nav {
  		li {
  			a {
- 				color: #2c3e50;
+ 				color: #292F33;
+ 				font-family: 'Ubuntu Mono', ;
+ 				font-size: 16px;
+ 				&:hover, &:active, &:focus {
+ 					background-color: inherit;
+ 					opacity: 0.7;
+ 				}
  			}
  		}
  	}
@@ -38,8 +76,51 @@
  	width: 880px;
  }
 
+ @media screen and (max-width: 980px) {
+   .container {
+      width: 100%;
+      padding-left: 50px;
+      padding-right: 50px;
+   }
+   h2 {
+   	  font-size: 38px;
+   }
+   h3 {
+   	  font-size: 18px;
+   }
+   .navbar-studio {
+   	.nav {
+   	 li {
+		   	a {
+		   		font-size: 16px;
+		   		padding: 15px 15px 5px 0;
+		   	}
+   	 }
+   	}
+
+	   	.navbar-text {
+	   		font-size: 10px;
+	   		position: relative;
+	   		left: -15px;
+	   	}
+   }
+}
+ 
+
  a {
  	color: #2c3e50;
  	font-weight: bold;
  }
 
+.blog {
+	.navbar-studio {
+		background-color: #14AA9F;
+	}
+	.main {
+		margin-top: 80px;
+	}
+}
+
+.img-rounded {
+	margin-bottom: 10px;
+}

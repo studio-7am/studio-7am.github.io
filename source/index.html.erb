@@ -6,31 +6,32 @@ title: Веб студия "7 утра" - Создание сайтов от 70$
 <div class="jumbotron">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-12 col-sm-12">
         <!--img src="/images/logo.jpg" class="logo"-->
-	    <h2>Лендинги, магазины и веб приложения</h2>
+	    <h2>Веб студия. Делаем сайты, магазины и приложения.</h2>
 	    <!--a href="/" class="btn btn-danger">Заказать сайт</a-->
 	   </div>
 	  </div>
   </div>
 </div>
-
 <div class="container">
 <div class="row">
-<div class="col-lg-6">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-10">
 
-<div ng-controller="PostsCtrl">
-    <div ng-repeat="post in posts">
-      <h4><a>{{post.title}}</a></h4>
-      <p ng-bind-html="post.body | unsafe"></p>
+	<% page_articles.each_with_index do |article, i| %>
+	  <h3><%= link_to article.title, article %> 
+	  <small>
+	  <%= article.date.strftime('%e %b') %>
+	  </small></h3>
+	  <!-- use article.summary(250) if you have Nokogiri available to show just
+	       the first 250 characters -->
+	  <%= article.summary(140, '...') %>
+	  <%= link_to 'Читать', article, class: 'btn btn-primary btn-xs' %>
 	  <hr>
-    </div>
-</div> 
+	<% end %>
 
 </div>
-<div class="col-lg-6">
-   <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/permalink.php?story_fbid=1073823642633849&amp;id=907632075919674" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/permalink.php?story_fbid=1073823642633849&amp;id=907632075919674"><p>http://7-am.ru/</p>Posted by <a href="https://www.facebook.com/pages/%D0%A1%D0%B5%D0%BC%D1%8C-%D1%83%D1%82%D1%80%D0%B0/907632075919674">Семь утра</a> on <a href="https://www.facebook.com/permalink.php?story_fbid=1073823642633849&amp;id=907632075919674">1 Май 2015 г.</a></blockquote></div></div>
-</div>
+
 </div>
 </div>
 

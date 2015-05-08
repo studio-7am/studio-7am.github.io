@@ -1,0 +1,310 @@
+$veni-color: #4A89DC;
+$vidi-color: #434A54;
+$vici-color: #ED5565;
+
+
+.panel.price {
+  border-radius: 0px;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  > .panel-heading {
+    border-radius: 0px;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+  }
+  &:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    > .panel-heading {
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2) inset;
+    }
+  }
+  > .panel-heading {
+    box-shadow: 0px 5px 0px rgba(50, 50, 50, 0.2) inset;
+    text-shadow: 0px 3px 0px rgba(50, 50, 50, 0.6);
+  }
+}
+
+.price .list-group-item {
+  border-bottom-: 1px solid rgba(250, 250, 250, 0.5);
+}
+
+.panel.price .list-group-item {
+  &:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  &:first-child {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+}
+
+.price .panel-footer {
+  color: #fff;
+  border-bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.panel.price .btn {
+  box-shadow: 0 -1px 0px rgba(50, 50, 50, 0.2) inset;
+  border: 0px;
+}
+
+/* green panel */
+
+.price {
+  &.panel-green {
+    > {
+      .panel-heading {
+        color: #fff;
+        background-color: #34495E;
+        border-color: #71DF71;
+        border-bottom: 1px solid #34495E;
+      }
+      .panel-body {
+        color: #fff;
+        background-color: #34495E;
+        .lead {
+          text-shadow: 0px 3px 0px rgba(50, 50, 50, 0.3);
+        }
+      }
+    }
+    .list-group-item {
+      color: #333;
+      background-color: rgba(50, 50, 50, 0.01);
+      font-weight: 600;
+      text-shadow: 0px 1px 0px rgba(250, 250, 250, 0.75);
+    }
+  }
+  &.panel-blue {
+    > {
+      .panel-heading {
+        color: #fff;
+        background-color: #14AA9F;
+        border-color: #55ACEE;
+        border-bottom: 1px solid #14AA9F;
+      }
+      .panel-body {
+        color: #fff;
+        background-color: #14AA9F;
+        .lead {
+          text-shadow: 0px 3px 0px rgba(50, 50, 50, 0.3);
+        }
+      }
+    }
+    .list-group-item {
+      color: #333;
+      background-color: rgba(50, 50, 50, 0.01);
+      font-weight: 600;
+      text-shadow: 0px 1px 0px rgba(250, 250, 250, 0.75);
+    }
+  }
+  &.panel-red {
+    > {
+      .panel-heading {
+        color: #fff;
+        background-color: #E74C3C;
+        border-color: #FF6062;
+        border-bottom: 1px solid #E74C3C;
+      }
+      .panel-body {
+        color: #fff;
+        background-color: #E74C3C;
+        .lead {
+          text-shadow: 0px 3px 0px rgba(50, 50, 50, 0.3);
+        }
+      }
+    }
+    .list-group-item {
+      color: #333;
+      background-color: rgba(50, 50, 50, 0.01);
+      font-weight: 600;
+      text-shadow: 0px 1px 0px rgba(250, 250, 250, 0.75);
+    }
+  }
+  &.panel-grey {
+    > {
+      .panel-heading {
+        color: #fff;
+        background-color: #002147;
+        border-color: #B7B7B7;
+        border-bottom: 1px solid #002147;
+      }
+      .panel-body {
+        color: #fff;
+        background-color: #002147;
+        .lead {
+          text-shadow: 0px 3px 0px rgba(50, 50, 50, 0.3);
+        }
+      }
+    }
+    .list-group-item {
+      color: #333;
+      background-color: rgba(50, 50, 50, 0.01);
+      font-weight: 600;
+      text-shadow: 0px 1px 0px rgba(250, 250, 250, 0.75);
+    }
+  }
+  &.panel-white > .panel-heading {
+    color: #333;
+    background-color: #f9f9f9;
+    border-color: #ccc;
+    border-bottom: 1px solid #ccc;
+    text-shadow: 0px 2px 0px rgba(250, 250, 250, 0.7);
+  }
+}
+
+/* blue panel */
+
+/* red price */
+
+/* grey price */
+
+/* white price */
+
+.panel.panel-white.price:hover > .panel-heading {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05) inset;
+}
+
+.price {
+  &.panel-white > .panel-body {
+    color: #fff;
+    background-color: #dfdfdf;
+    .lead {
+      text-shadow: 0px 2px 0px rgba(250, 250, 250, 0.8);
+      color: #666;
+    }
+  }
+  &:hover.panel-white > .panel-body .lead {
+    text-shadow: 0px 2px 0px rgba(250, 250, 250, 0.9);
+    color: #333;
+  }
+  &.panel-white .list-group-item {
+    color: #333;
+    background-color: rgba(50, 50, 50, 0.01);
+    font-weight: 600;
+    text-shadow: 0px 1px 0px rgba(250, 250, 250, 0.75);
+  }
+  &.panel-veni > .panel-heading {
+    color: #fff;
+    background-color: $veni-color;
+    border-color: #ccc;
+    border-bottom: 1px solid $veni-color;
+  }
+}
+
+/* veni price */
+
+.panel.panel-veni.price:hover > .panel-heading {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05) inset;
+}
+
+.price {
+  &.panel-veni > .panel-body {
+    color: #fff;
+    background-color: $veni-color;
+    .lead {
+      color: #fff;
+    }
+  }
+  &:hover.panel-veni > .panel-body .lead {
+    text-shadow: 0px 2px 0px rgba(250, 250, 250, 0.9);
+    color: #fafafa;
+  }
+  &.panel-veni .list-group-item {
+    color: #333;
+    background-color: rgba(50, 50, 50, 0.01);
+    font-weight: 600;
+    text-shadow: 0px 1px 0px rgba(250, 250, 250, 0.75);
+  }
+  &.panel-vidi > .panel-heading {
+    color: #fff;
+    background-color: $vidi-color;;
+    border-color: #ccc;
+    border-bottom: 1px solid $vidi-color;;
+  }
+}
+
+/* vidi price */
+
+.panel.panel-vidi.price:hover > .panel-heading {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05) inset;
+}
+
+.price {
+  &.panel-vidi > .panel-body {
+    color: #fff;
+    background-color: $vidi-color;
+    .lead {
+      color: #fff;
+    }
+  }
+  &:hover.panel-vidi > .panel-body .lead {
+    text-shadow: 0px 2px 0px rgba(250, 250, 250, 0.9);
+    color: #fafafa;
+  }
+  &.panel-vidi .list-group-item {
+    color: #333;
+    background-color: rgba(50, 50, 50, 0.01);
+    font-weight: 600;
+    text-shadow: 0px 1px 0px rgba(250, 250, 250, 0.75);
+  }
+  &.panel-vici > .panel-heading {
+    color: #fff;
+    background-color: $vici-color;
+    border-color: #ccc;
+    border-bottom: 1px solid $vici-color;
+  }
+}
+
+/* vici price */
+
+.panel.panel-vici.price:hover > .panel-heading {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05) inset;
+}
+
+.price {
+  &.panel-vici > .panel-body {
+    color: #fff;
+    background-color: $vici-color;
+    
+    .lead {
+      color: #fff;
+    }
+  }
+  &:hover.panel-vici > .panel-body .lead {
+    text-shadow: 0px 2px 0px rgba(250, 250, 250, 0.9);
+    color: #fafafa;
+  }
+  &.panel-vici.list-group-item {
+    color: #333;
+    background-color: rgba(50, 50, 50, 0.01);
+    font-weight: 600;
+    text-shadow: 0px 1px 0px rgba(250, 250, 250, 0.75);
+  }
+}
+
+.btn {
+	&:hover {
+		color: #fff;
+		opacity: 0.8;
+	}
+}
+
+.btn-veni {
+	background-color: $veni-color;
+	color: #fff;
+}
+
+.btn-vidi {
+	background-color: $vidi-color;
+	color: #fff;
+}
+
+.btn-vici {
+	background-color: $vici-color;
+	color: #fff;
+}
