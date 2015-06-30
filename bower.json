@@ -19,6 +19,7 @@
     "angular": "latest",
     "angular-resource": "latest",
     "angular-route": "latest",
+    "jquery": "latest",
     "jquery.nicescroll": "latest"
   }
 }
