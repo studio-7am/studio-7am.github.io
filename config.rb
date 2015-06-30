@@ -13,6 +13,8 @@
 
 activate :blog do |blog|
   blog.layout = "blog"
+  blog.permalink = ":year-:month-:day-:title.html"
+  blog.sources = "articles/:title.html"
 end
 
 sprockets.append_path File.join root, 'lib'
