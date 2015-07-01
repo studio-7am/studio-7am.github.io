@@ -1,4 +1,673 @@
 @charset "UTF-8";
+/* NAVBAR */
+/* OFFCANVAS MENU */
+/* line 6, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.offcanvas,
+.offcanvas-list {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  overflow-y: auto;
+  z-index: 1050;
+  height: 100%;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate3d(0px, 0px, 0px);
+  -ms-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  -webkit-transition: 0.25s ease;
+  -moz-transition: 0.25s ease;
+  -o-transition: 0.25s ease;
+  transition: 0.25s ease; }
+
+/* line 26, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.offcanvas-left {
+  left: -200px; }
+  /* line 29, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .offcanvas-left.active {
+    -webkit-transform: translate3d(200px, 0px, 0px);
+    -moz-transform: translate3d(200px, 0px, 0px);
+    -o-transform: translate3d(200px, 0px, 0px);
+    -ms-transform: translate3d(200px, 0px, 0px);
+    transform: translate3d(200px, 0px, 0px); }
+
+/* OFFCANVAS LIST FOR TABLET PORTRAIT MODE */
+/* line 40, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.offcanvas-list {
+  width: 350px;
+  left: -350px; }
+  /* line 44, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .offcanvas-list.active {
+    -webkit-transform: translate3d(350px, 0px, 0px);
+    -moz-transform: translate3d(350px, 0px, 0px);
+    -o-transform: translate3d(350px, 0px, 0px);
+    -ms-transform: translate3d(350px, 0px, 0px);
+    transform: translate3d(350px, 0px, 0px); }
+
+/* line 53, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.offcanvas-list-title {
+  position: fixed;
+  background: rgba(247, 247, 247, 0.98);
+  height: 45px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 44px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
+/* line 64, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.offcanvaslist-toggle {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate3d(0px, 0px, 0px);
+  -ms-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  -webkit-transition: 0.25s ease;
+  -moz-transition: 0.25s ease;
+  -o-transition: 0.25s ease;
+  transition: 0.25s ease; }
+  /* line 75, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .offcanvaslist-toggle.active {
+    -webkit-transform: translate3d(50px, 0px, 0px);
+    -moz-transform: translate3d(50px, 0px, 0px);
+    -o-transform: translate3d(50px, 0px, 0px);
+    -ms-transform: translate3d(50px, 0px, 0px);
+    transform: translate3d(50px, 0px, 0px); }
+
+/* line 84, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.push-right {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate3d(0px, 0px, 0px);
+  -ms-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  -webkit-transition: 0.25s ease;
+  -moz-transition: 0.25s ease;
+  -o-transition: 0.25s ease;
+  transition: 0.25s ease; }
+  /* line 95, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .push-right.active-left {
+    -webkit-transform: translate3d(200px, 0px, 0px);
+    -moz-transform: translate3d(200px, 0px, 0px);
+    -o-transform: translate3d(200px, 0px, 0px);
+    -ms-transform: translate3d(200px, 0px, 0px);
+    transform: translate3d(200px, 0px, 0px); }
+  /* line 102, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .push-right.active-right {
+    -webkit-transform: translate3d(-200px, 0px, 0px);
+    -moz-transform: translate3d(-200px, 0px, 0px);
+    -o-transform: translate3d(-200px, 0px, 0px);
+    -ms-transform: translate3d(-200px, 0px, 0px);
+    transform: translate3d(-200px, 0px, 0px); }
+
+/* BUTTONS */
+/* line 114, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.btn i {
+  margin-right: 5px; }
+
+/* line 116, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.btn.icon-only i,
+.btn.icononly i {
+  margin-right: 0; }
+
+/* LISTS */
+/* line 125, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.list-group-item {
+  margin-left: 15px;
+  padding-left: 0; }
+  /* line 129, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .list-group-item .list-group-item-text {
+    line-height: 18px;
+    margin-bottom: 5px;
+    overflow: hidden; }
+  /* line 135, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .list-group-item .list-group-item-heading:last-child,
+  .list-group-item .list-group-item-text:last-child {
+    margin-bottom: 0; }
+  /* line 140, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .list-group-item .row div > .list-group-item-heading:last-child,
+  .list-group-item .row div > .list-group-item-text:last-child {
+    margin-bottom: 5px; }
+  /* line 145, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .list-group-item .row div:last-child > .list-group-item-heading:last-child,
+  .list-group-item .row div:last-child > .list-group-item-text:last-child {
+    margin-bottom: 0; }
+  /* line 150, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .list-group-item img {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px; }
+  /* line 156, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .list-group-item i {
+    opacity: 0.3;
+    width: 40px;
+    text-align: center;
+    margin-right: 15px; }
+
+/* line 164, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+a.list-group-item {
+  cursor: pointer; }
+  /* line 167, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  a.list-group-item:hover, a.list-group-item:active, a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+    margin-left: 0;
+    padding-left: 15px; }
+
+/* line 179, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.panel > .list-group .list-group-item:last-child {
+  border-bottom: 0; }
+
+/* List Images */
+/* line 186, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-list-group-item-content {
+  overflow: hidden; }
+
+/* Disclosure Indicators */
+/* line 193, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+a.list-group-item:before {
+  font-family: 'FontAwesome';
+  content: '';
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: -7px;
+  color: #ccc; }
+
+/* line 205, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.list-group.bootcards-no-indicators a.list-group-item:before {
+  display: none; }
+
+/* List - Subheadings */
+/* line 212, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.list-group-item.bootcards-list-subheading {
+  margin-left: 0;
+  padding-left: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  z-index: 6; }
+
+/* line 220, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+a.list-group-item.bootcards-list-subheading {
+  padding-left: 40px; }
+  /* line 223, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  a.list-group-item.bootcards-list-subheading:before {
+    font-family: 'FontAwesome';
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: -7px;
+    color: #ccc; }
+  /* line 235, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  a.list-group-item.bootcards-list-subheading.collapsed:before {
+    content: ''; }
+
+/* List - AZ Picker */
+/* line 243, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-az-picker {
+  position: fixed;
+  width: 25px;
+  margin: 0 0 0 -26px;
+  padding: 0;
+  list-style: none;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #ffffff;
+  padding-bottom: 50px;
+  padding-top: 5px; }
+  /* line 258, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .bootcards-az-picker li {
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0;
+    background: #ffffff;
+    height: 3.846%;
+    /* 100% / 26 */ }
+  /* line 267, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .bootcards-az-picker a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%; }
+    /* line 285, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+    .bootcards-az-picker a:hover {
+      text-decoration: none; }
+  @media only screen and (min-device-width: 480px) and (max-device-width: 767px) and (orientation: landscape) {
+    /* line 291, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+    .bootcards-az-picker li {
+      height: 7.692%;
+      /* 100% / 13 */ }
+      /* line 294, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+      .bootcards-az-picker li:nth-child(even) {
+        display: none;
+        /* hide every other letter on smartphones/landscape */ } }
+
+/* List - Search Form */
+/* line 305, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-list .form-group {
+  position: relative;
+  margin-bottom: 0; }
+  @media (min-width: 768px) {
+    /* line 305, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+    .bootcards-list .form-group {
+      margin-bottom: 0; } }
+/* line 316, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-list form input,
+.bootcards-list .search-form input {
+  padding-left: 32px; }
+/* line 320, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-list form .btn,
+.bootcards-list .search-form .btn {
+  color: white; }
+/* line 324, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-list form i.fa-search,
+.bootcards-list .search-form i.fa-search {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  color: #999;
+  font-size: 14px; }
+
+/* FOOTER */
+/* line 340, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-desktop-footer {
+  display: none; }
+
+/* CARDS */
+/* line 347, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.panel-default .panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd; }
+
+/* line 353, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.panel-body > *:last-child {
+  margin-bottom: 0; }
+
+/* line 357, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.panel-footer {
+  overflow: hidden; }
+
+/* line 361, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.panel-footer small,
+.modal-footer small {
+  color: #aaa;
+  display: block;
+  text-align: center;
+  line-height: 22px;
+  /* Line up vertically with .btn */ }
+
+/* line 369, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.list-group + .panel-footer {
+  border-top-width: 1px;
+  /* ML: panel-footer has a top border, but that's removed by Bootstrap if there's a list-group before it. We restore it here. */ }
+
+/* FORM CARD */
+/* line 377, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.btn label {
+  margin: 0;
+  font-weight: inherit;
+  cursor: pointer; }
+
+/* line 383, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-clearinput {
+  position: absolute;
+  right: 0;
+  top: 11px;
+  color: #ccc;
+  display: block;
+  font-size: 0; }
+
+/* line 392, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-clearinput i {
+  line-height: 1;
+  font-size: 18px; }
+
+/* line 397, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.form-horizontal .form-group div div {
+  padding: 0; }
+
+/* Toggle – based on Ratchet.css */
+/* line 405, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-toggle {
+  position: relative;
+  display: block;
+  width: 74px;
+  height: 30px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-property: background-color, border;
+  -moz-transition-property: background-color, border;
+  transition-property: background-color, border; }
+
+/* line 420, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-toggle .bootcards-toggle-handle {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  z-index: 2;
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 100px;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-property: -webkit-transform, border, width;
+  -moz-transition-property: -moz-transform, border, width;
+  transition-property: transform, border, width; }
+
+/* line 437, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-toggle:before {
+  position: absolute;
+  top: 3px;
+  right: 11px;
+  font-size: 13px;
+  color: #999;
+  text-transform: uppercase;
+  content: "Off"; }
+
+/* line 446, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-toggle.active {
+  background-color: #5cb85c;
+  border: 2px solid #5cb85c; }
+
+/* line 450, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-toggle.active .bootcards-toggle-handle {
+  border-color: #5cb85c;
+  -webkit-transform: translate3d(44px, 0, 0);
+  -ms-transform: translate3d(44px, 0, 0);
+  transform: translate3d(44px, 0, 0); }
+
+/* line 456, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-toggle.active:before {
+  right: auto;
+  left: 15px;
+  color: #fff;
+  content: "On"; }
+
+/* line 462, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-toggle input[type="checkbox"] {
+  display: none; }
+
+/* CALENDAR */
+/* line 469, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar {
+  margin-top: -15px;
+  background: white; }
+
+/* line 474, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-header-left,
+.bootcards-calendar .fc-header-right {
+  padding: 15px; }
+
+/* line 479, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-header-title h2 {
+  margin: 0; }
+
+/* line 483, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-content th:first-child,
+.bootcards-calendar .fc-content td:first-child {
+  border-left-width: 0; }
+
+/* line 488, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-content th:last-child,
+.bootcards-calendar .fc-content td:last-child {
+  border-right-width: 0; }
+
+/* line 493, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-header-title h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #8f8f94;
+  font-weight: 400;
+  margin: 0;
+  padding: 8px 0;
+  line-height: 20px; }
+
+/* line 503, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-header-left,
+.bootcards-calendar .fc-header-right {
+  padding: 0 10px; }
+
+/* line 508, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-button .fc-icon {
+  margin: 0; }
+
+/* line 512, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-header .fc-button {
+  background: transparent;
+  box-shadow: none;
+  border-color: transparent;
+  margin: 0;
+  height: 44px;
+  line-height: 40px;
+  font-size: 16px;
+  text-shadow: none;
+  padding: 0; }
+
+/* line 524, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-header-left .fc-button {
+  margin-right: 10px; }
+
+/* line 528, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-header-right .fc-button {
+  margin-left: 10px; }
+
+/* line 532, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-icon-left-single-arrow:after,
+.bootcards-calendar .fc-icon-right-single-arrow:after {
+  font-family: 'FontAwesome';
+  font-size: 18px;
+  font-weight: normal; }
+
+/* line 539, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-icon-left-single-arrow:after {
+  content: ''; }
+
+/* line 543, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-icon-right-single-arrow:after {
+  content: ''; }
+
+/* line 548, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-header .fc-button.fc-state-disabled {
+  color: #AAA;
+  opacity: 1; }
+
+/* line 553, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-header .fc-button.fc-state-active {
+  color: #AAA; }
+
+/* line 557, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-day-header {
+  font-weight: 400;
+  font-size: 12px;
+  border-left-color: transparent;
+  padding: 5px 0;
+  padding-right: 3px; }
+
+/* line 565, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-event {
+  background: #007aff;
+  border-color: #007aff; }
+
+/* line 570, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-calendar .fc-today {
+  background: #FFF2F2; }
+
+/* TABLE CARD */
+/* line 578, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.table > thead > tr > th:first-child,
+.table > tbody > tr > th:first-child,
+.table > tfoot > tr > th:first-child,
+.table > thead > tr > td:first-child,
+.table > tbody > tr > td:first-child,
+.table > tfoot > tr > td:first-child {
+  padding-left: 15px; }
+
+/* line 587, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.table > thead > tr > th:last-child,
+.table > tbody > tr > th:last-child,
+.table > tfoot > tr > th:last-child,
+.table > thead > tr > td:last-child,
+.table > tbody > tr > td:last-child,
+.table > tfoot > tr > td:last-child {
+  padding-right: 15px; }
+
+/* FILE CARD */
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?-n2q9vw");
+  src: url("../fonts/icomoon.eot?#iefix-n2q9vw") format("embedded-opentype"), url("../fonts/icomoon.woff?-n2q9vw") format("woff"), url("../fonts/icomoon.ttf?-n2q9vw") format("truetype"), url("../fonts/icomoon.svg?-n2q9vw#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 612, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 626, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.icon-file-pdf:before {
+  content: "\e4e2"; }
+
+/* line 629, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.icon-file-word:before {
+  content: "\e4e4"; }
+
+/* line 632, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.icon-file-excel:before {
+  content: "\e4e5"; }
+
+/* line 635, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.icon-file-powerpoint:before {
+  content: "\e4e7"; }
+
+/* line 638, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.icon-file:before {
+  content: "\e08d"; }
+
+/* line 642, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-file .list-group-item:first-child {
+  position: relative;
+  padding-left: 74px; }
+
+/* line 647, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-file .list-group-item:first-child i {
+  font-size: 64px;
+  width: 64px;
+  position: absolute;
+  left: 0;
+  top: 10px; }
+
+/* line 655, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-file .list-group-item *:last-child {
+  margin-bottom: 0; }
+
+/* CHART CARD */
+/* line 662, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-chart .bootcards-chart-canvas {
+  height: 200px; }
+
+/* SUMMARY CARD */
+/* line 670, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-summary .panel-body {
+  padding: 7px 25px; }
+
+/* line 674, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-summary .panel-body > .row > div {
+  padding: 8px; }
+
+/* line 678, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-summary-item {
+  background: #f5f5f5;
+  display: block;
+  border-radius: 4px;
+  padding: 25px 10px;
+  text-align: center;
+  position: relative;
+  height: 130px; }
+
+@media (max-width: 400px) {
+  /* line 689, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .bootcards-summary-item {
+    padding: 15px 5px; } }
+/* line 694, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-summary-item:hover {
+  text-decoration: none;
+  background: #eee; }
+
+/* line 699, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-summary-item > i {
+  color: #bbb;
+  display: block;
+  text-align: center;
+  margin-bottom: 5px; }
+
+/* line 706, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-summary-item h4 {
+  margin: 0 auto; }
+
+/* line 711, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-summary-item .badge,
+.bootcards-summary-item .label {
+  position: absolute;
+  top: 10px;
+  right: 10px; }
+
+/* RICH TEXT CARD */
+/* line 721, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-richtext > .panel-body {
+  padding: 25px;
+  max-width: 640px;
+  margin: 0 auto; }
+
+/* line 727, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+.bootcards-richtext > .panel-body > *:first-child {
+  margin-top: 0; }
+
+/* ALERTS & DIALOGS */
+@media (max-width: 767px) {
+  /* line 735, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .modal-dialog.modal-sm {
+    margin: 15px; } }
+@media (min-width: 768px) {
+  /* line 741, /home/ben/studio/site2/lib/bootcards/src/css/bootcards.scss */
+  .modal-dialog.modal-sm {
+    width: 400px; } }
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -7248,6 +7917,7 @@ button.close {
  /*
 
 
+
  */
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic&subset=latin,cyrillic);
 /* Make clicks pass-through */
@@ -8005,115 +8675,115 @@ button.close {
 .social-likes_light .social-likes__icon_pinterest {
   left: .1em; }
 
-/* line 18, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 19, /home/ben/studio/site2/source/stylesheets/all.scss */
 .item {
   float: left; }
 
-/* line 21, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 22, /home/ben/studio/site2/source/stylesheets/all.scss */
 h1, h2, h3 {
   font-family: "Ubuntu Mono"; }
-  /* line 24, /home/ben/studio/site2/source/stylesheets/all.scss */
+  /* line 25, /home/ben/studio/site2/source/stylesheets/all.scss */
   h1 a:hover, h2 a:hover, h3 a:hover {
     text-decoration: none;
     opacity: 0.8;
     background-color: inherit; }
 
-/* line 31, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 32, /home/ben/studio/site2/source/stylesheets/all.scss */
 i {
   margin-right: 10px;
   width: 10px; }
 
-/* line 35, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 36, /home/ben/studio/site2/source/stylesheets/all.scss */
 section {
   padding-top: 25px;
   padding-bottom: 25px; }
 
-/* line 40, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 41, /home/ben/studio/site2/source/stylesheets/all.scss */
 .logo {
   width: 100%; }
 
-/* line 43, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 44, /home/ben/studio/site2/source/stylesheets/all.scss */
 .navbar-studio {
   margin: 0;
   background-color: #14AA9F; }
-  /* line 46, /home/ben/studio/site2/source/stylesheets/all.scss */
+  /* line 47, /home/ben/studio/site2/source/stylesheets/all.scss */
   .navbar-studio .navbar-brand {
     color: #292F33; }
-    /* line 48, /home/ben/studio/site2/source/stylesheets/all.scss */
+    /* line 49, /home/ben/studio/site2/source/stylesheets/all.scss */
     .navbar-studio .navbar-brand:hover, .navbar-studio .navbar-brand:active, .navbar-studio .navbar-brand:focus {
       background-color: inherit;
       outline: none; }
-  /* line 55, /home/ben/studio/site2/source/stylesheets/all.scss */
+  /* line 56, /home/ben/studio/site2/source/stylesheets/all.scss */
   .navbar-studio .nav li a {
     color: #292F33;
     font-family: "Ubuntu Mono";
     font-size: 17px; }
-    /* line 59, /home/ben/studio/site2/source/stylesheets/all.scss */
+    /* line 60, /home/ben/studio/site2/source/stylesheets/all.scss */
     .navbar-studio .nav li a:hover, .navbar-studio .nav li a:active, .navbar-studio .nav li a:focus {
       background-color: inherit;
       opacity: 0.7; }
 
-/* line 68, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 69, /home/ben/studio/site2/source/stylesheets/all.scss */
 .j-home {
   padding-top: 150px !important;
   height: 700px; }
 
-/* line 72, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 73, /home/ben/studio/site2/source/stylesheets/all.scss */
 .jumbotron {
   background-color: #14AA9F;
   color: #fff;
   font-weight: bold;
   margin: 0;
   padding-top: 5px; }
-  /* line 78, /home/ben/studio/site2/source/stylesheets/all.scss */
+  /* line 79, /home/ben/studio/site2/source/stylesheets/all.scss */
   .jumbotron h1 {
     font-weight: bold; }
 
-/* line 83, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 84, /home/ben/studio/site2/source/stylesheets/all.scss */
 .container {
   width: 880px; }
 
 @media screen and (max-width: 980px) {
-  /* line 88, /home/ben/studio/site2/source/stylesheets/all.scss */
+  /* line 89, /home/ben/studio/site2/source/stylesheets/all.scss */
   .container {
     width: 100%;
     padding-left: 50px;
     padding-right: 50px; }
 
-  /* line 93, /home/ben/studio/site2/source/stylesheets/all.scss */
+  /* line 94, /home/ben/studio/site2/source/stylesheets/all.scss */
   h2 {
     font-size: 38px; }
 
-  /* line 96, /home/ben/studio/site2/source/stylesheets/all.scss */
+  /* line 97, /home/ben/studio/site2/source/stylesheets/all.scss */
   h3 {
     font-size: 18px; }
 
-  /* line 102, /home/ben/studio/site2/source/stylesheets/all.scss */
+  /* line 103, /home/ben/studio/site2/source/stylesheets/all.scss */
   .navbar-studio .nav li a {
     font-size: 16px;
     padding: 15px 15px 5px 0; }
-  /* line 109, /home/ben/studio/site2/source/stylesheets/all.scss */
+  /* line 110, /home/ben/studio/site2/source/stylesheets/all.scss */
   .navbar-studio .navbar-text {
     font-size: 10px;
     position: relative;
     left: -15px; } }
-/* line 118, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 119, /home/ben/studio/site2/source/stylesheets/all.scss */
 a {
   color: #2c3e50;
   font-weight: bold; }
 
-/* line 124, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 125, /home/ben/studio/site2/source/stylesheets/all.scss */
 .blog .navbar-studio {
   background-color: #14AA9F; }
-/* line 127, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 128, /home/ben/studio/site2/source/stylesheets/all.scss */
 .blog .main {
   margin-top: 80px; }
 
-/* line 132, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 133, /home/ben/studio/site2/source/stylesheets/all.scss */
 .img-rounded {
   margin-bottom: 10px; }
 
-/* line 138, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 139, /home/ben/studio/site2/source/stylesheets/all.scss */
 .linza {
   height: 600px;
   background: url(/images/desert.jpg) no-repeat center center fixed;
@@ -8122,26 +8792,41 @@ a {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 147, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 148, /home/ben/studio/site2/source/stylesheets/all.scss */
+.linza-min {
+  height: 200px;
+  background: url(/images/desert.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 157, /home/ben/studio/site2/source/stylesheets/all.scss */
 .content {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-/* line 152, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 162, /home/ben/studio/site2/source/stylesheets/all.scss */
 .call_to_action {
   width: 300px;
   margin: auto;
   position: relative;
   top: 200px; }
-  /* line 153, /home/ben/studio/site2/source/stylesheets/all.scss */
-  .call_to_action .btn {
+  /* line 164, /home/ben/studio/site2/source/stylesheets/all.scss */
+  .call_to_action .btn-danger {
+    background: none;
+    border: 3px solid #333;
     border-radius: 1px; }
+    /* line 168, /home/ben/studio/site2/source/stylesheets/all.scss */
+    .call_to_action .btn-danger:hover {
+      background-color: #333;
+      color: #fff; }
 
-/* line 161, /home/ben/studio/site2/source/stylesheets/all.scss */
+/* line 181, /home/ben/studio/site2/source/stylesheets/all.scss */
 .btn-primary {
   background-color: #14AA9F;
   border-color: #14AA9F; }
-  /* line 164, /home/ben/studio/site2/source/stylesheets/all.scss */
+  /* line 184, /home/ben/studio/site2/source/stylesheets/all.scss */
   .btn-primary:hover {
     background-color: #14AA9F;
     border-color: #14AA9F; }
