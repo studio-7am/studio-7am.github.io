@@ -1,0 +1,45 @@
+<div id="response">
+    <label class="alert alert-success"></label>
+</div>
+<form id="my-form">
+  <div class="field">
+    <input type="text" class="form-control" placeholder="Как вас зовут?" name="order[client_name]" id="order_client_name" />
+  </div>
+  <div class="field">
+    <input type="text" class="form-control" placeholder="Ваш email" name="order[email]" id="order_email" />
+  </div>
+  <div class="field">
+    <input type="hidden" name="order[tarif_id]" id="order_tarif_id" value="1" />
+  </div>
+  <div class="field">
+    <input type="text" name="order[message]" class="form-control" placeholder="Сообщение" id="order_message" />
+  </div><br>
+  <div class="actions">
+    <input type="submit" name="commit" value="Create Order" class="btn btn-primary btn-lg"/>
+  </div>
+</form>
+</div>
+
+<script type="text/javascript" language="javascript">
+    (function($){
+        function processForm( e ){
+            $.ajax({
+                url: 'http://localhost:3000/orders',
+                dataType: 'text',
+                type: 'post',
+                contentType: 'application/x-www-form-urlencoded',
+                data: $(this).serialize(),
+                success: function( data, textStatus, jQxhr ){
+                    $('#response label').html( data );
+                },
+                error: function( jqXhr, textStatus, errorThrown ){
+                    console.log( errorThrown );
+                }
+            });
+
+            e.preventDefault();
+        }
+
+        $('#my-form').submit( processForm );
+    })(jQuery);
+</script>
