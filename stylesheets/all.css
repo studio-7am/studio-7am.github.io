@@ -8823,23 +8823,24 @@ a {
     border: 3px solid #333;
     border-radius: 1px;
     font-size: 18px;
+    font-weight: bold;
     color: #333; }
-    /* line 173, /home/ben/studio/site/source/stylesheets/all.scss */
+    /* line 174, /home/ben/studio/site/source/stylesheets/all.scss */
     .call_to_action .btn-danger:hover {
       background-color: #333;
       color: #fff; }
 
-/* line 186, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 187, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn-primary {
   background-color: #14AA9F;
   border-color: #14AA9F; }
-  /* line 189, /home/ben/studio/site/source/stylesheets/all.scss */
+  /* line 190, /home/ben/studio/site/source/stylesheets/all.scss */
   .btn-primary:hover {
     background-color: #14AA9F;
     border-color: #14AA9F; }
 
 /* Buttons */
-/* line 198, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 199, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn-big {
   font-size: 18px;
   display: inline-block;
@@ -8851,54 +8852,54 @@ a {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-/* line 210, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 211, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn:hover,
 .btn:focus {
   color: white; }
 
-/* line 215, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 216, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-blue {
   background: #00a8ff; }
 
-/* line 219, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 220, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-blue:hover {
   background: #31b9ff; }
 
-/* line 223, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 224, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-blue-fill {
   color: #00a8ff;
   border-color: #00a8ff;
   background: transparent; }
 
-/* line 229, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 230, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-blue-fill:hover {
   color: white;
   background: #00a8ff; }
 
-/* line 234, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 235, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-white-fill {
   color: #fff;
   border-color: #fff;
   background: transparent; }
 
-/* line 240, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 241, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-white-fill:hover {
   color: #00a8ff;
   background: #fff; }
 
-/* line 245, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 246, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-gray-fill {
   color: #fff;
   border-color: #fff;
   background: transparent; }
 
-/* line 251, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 252, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-gray-fill:hover {
   border-color: #bbb;
   background: #bbb; }
 
 /* Footer */
-/* line 259, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 260, /home/ben/studio/site/source/stylesheets/all.scss */
 footer {
   padding: 140px 0 40px;
   background: #333;
@@ -8906,12 +8907,12 @@ footer {
   -webkit-background-size: cover;
   background-size: cover; }
 
-/* line 267, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 268, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .trial-button {
   overflow: hidden !important;
   margin: 40px 0; }
 
-/* line 272, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 273, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .open-blink {
   content: ' ';
   position: relative;
@@ -8928,7 +8929,7 @@ footer .open-blink {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite; }
 
-/* line 289, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 290, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .open-blink:before {
   content: ' ';
   position: absolute;
@@ -8941,35 +8942,35 @@ footer .open-blink:before {
   border-radius: 50%;
   background-color: #4caf50; }
 
-/* line 302, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 303, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .opening-hours {
   margin-top: 60px; }
 
-/* line 306, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 307, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .bottom-footer {
   margin-top: 150px; }
 
-/* line 310, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 311, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .social-footer {
   padding: 0;
   list-style: none; }
 
-/* line 315, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 316, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .social-footer li {
   display: inline-block;
   margin: 0 10px; }
 
-/* line 320, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 321, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .social-footer li a {
   font-size: 24px;
   color: #fff; }
 
-/* line 325, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 326, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .social-footer li:hover a {
   color: #00a8ff; }
 
 /* Form Control */
-/* line 330, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 331, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control {
   font-size: 18px;
   position: relative;
@@ -8980,7 +8981,7 @@ footer .social-footer li:hover a {
   border-radius: 0;
   box-shadow: 0; }
 
-/* line 341, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 342, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control.form-white {
   color: #fff;
   border: 2px solid white;
@@ -8988,28 +8989,28 @@ footer .social-footer li:hover a {
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s; }
 
-/* line 349, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 350, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control.form-white::-webkit-input-placeholder {
   /* WebKit browsers */
   color: #fff; }
 
-/* line 354, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 355, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control.form-white:-moz-placeholder {
   opacity: 1;
   /* Mozilla Firefox 4 to 18 */
   color: #fff; }
 
-/* line 360, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 361, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control.form-white::-moz-placeholder {
   opacity: 1;
   /* Mozilla Firefox 19+ */
   color: #fff; }
 
-/* line 366, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 367, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control.form-white:-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: #fff; }
 
-/* line 371, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 372, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control.form-white:focus {
   background: rgba(255, 255, 255, 0.2); }
