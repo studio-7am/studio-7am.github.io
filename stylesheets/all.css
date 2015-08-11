@@ -8691,125 +8691,141 @@ button.close {
 body {
   font-size: 16px; }
 
-/* line 23, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 22, /home/ben/studio/site/source/stylesheets/all.scss */
+.special {
+  font-family: "Ubuntu Mono";
+  font-size: 18px;
+  position: relative;
+  top: 33px;
+  left: -10px; }
+
+/* line 31, /home/ben/studio/site/source/stylesheets/all.scss */
 a:active, a:focus, a:hover {
   text-decoration: none;
   outline: none; }
 
-/* line 30, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 38, /home/ben/studio/site/source/stylesheets/all.scss */
 .portfolio_item {
   padding: 5px; }
 
-/* line 34, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 42, /home/ben/studio/site/source/stylesheets/all.scss */
 .item {
   float: left; }
 
-/* line 37, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 46, /home/ben/studio/site/source/stylesheets/all.scss */
 h1, h2, h3 {
   font-family: "Ubuntu Mono"; }
-  /* line 40, /home/ben/studio/site/source/stylesheets/all.scss */
+  /* line 49, /home/ben/studio/site/source/stylesheets/all.scss */
   h1 a:hover, h2 a:hover, h3 a:hover {
     text-decoration: none;
     opacity: 0.8;
     background-color: inherit; }
 
-/* line 47, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 56, /home/ben/studio/site/source/stylesheets/all.scss */
 i {
   margin-right: 10px;
   width: 10px; }
 
-/* line 51, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 60, /home/ben/studio/site/source/stylesheets/all.scss */
 section {
   padding-top: 25px;
   padding-bottom: 25px; }
 
-/* line 56, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 65, /home/ben/studio/site/source/stylesheets/all.scss */
 .logo {
   width: 100%; }
 
-/* line 59, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 68, /home/ben/studio/site/source/stylesheets/all.scss */
 .navbar-studio {
   margin: 0;
   background-color: #14AA9F;
   border-radius: 0; }
-  /* line 63, /home/ben/studio/site/source/stylesheets/all.scss */
+  /* line 73, /home/ben/studio/site/source/stylesheets/all.scss */
   .navbar-studio .navbar-brand {
+    position: relative;
+    top: 35px;
+    font-size: 20px;
     color: #fafafa; }
-    /* line 65, /home/ben/studio/site/source/stylesheets/all.scss */
+    /* line 78, /home/ben/studio/site/source/stylesheets/all.scss */
     .navbar-studio .navbar-brand:hover, .navbar-studio .navbar-brand:active, .navbar-studio .navbar-brand:focus {
       background-color: inherit;
       outline: none; }
-  /* line 72, /home/ben/studio/site/source/stylesheets/all.scss */
-  .navbar-studio .nav li a {
-    color: #fafafa;
-    font-family: "Ubuntu Mono";
-    font-size: 18px; }
-    /* line 76, /home/ben/studio/site/source/stylesheets/all.scss */
-    .navbar-studio .nav li a:hover, .navbar-studio .nav li a:active, .navbar-studio .nav li a:focus {
-      background-color: inherit;
-      opacity: 0.7; }
+  /* line 83, /home/ben/studio/site/source/stylesheets/all.scss */
+  .navbar-studio .nav {
+    position: relative;
+    top: 33px; }
+    /* line 87, /home/ben/studio/site/source/stylesheets/all.scss */
+    .navbar-studio .nav li a {
+      color: #34495E;
+      font-family: "Ubuntu Mono";
+      font-size: 18px; }
+      /* line 91, /home/ben/studio/site/source/stylesheets/all.scss */
+      .navbar-studio .nav li a:hover, .navbar-studio .nav li a:active, .navbar-studio .nav li a:focus {
+        background-color: inherit;
+        opacity: 0.7; }
 
-/* line 85, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 100, /home/ben/studio/site/source/stylesheets/all.scss */
 .j-home {
   padding-top: 150px !important;
   height: 700px; }
 
-/* line 89, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 104, /home/ben/studio/site/source/stylesheets/all.scss */
 .jumbotron {
   background-color: #14AA9F;
   color: #fff;
   font-weight: bold;
   margin: 0;
   padding-top: 5px; }
-  /* line 95, /home/ben/studio/site/source/stylesheets/all.scss */
+  /* line 110, /home/ben/studio/site/source/stylesheets/all.scss */
   .jumbotron h1 {
-    font-weight: bold; }
+    font-weight: bold;
+    color: #34495E; }
 
-/* line 100, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 116, /home/ben/studio/site/source/stylesheets/all.scss */
 .container {
   width: 980px; }
 
 @media screen and (max-width: 980px) {
-  /* line 105, /home/ben/studio/site/source/stylesheets/all.scss */
+  /* line 121, /home/ben/studio/site/source/stylesheets/all.scss */
   .container {
     width: 100%;
     padding-left: 50px;
     padding-right: 50px; }
 
-  /* line 110, /home/ben/studio/site/source/stylesheets/all.scss */
+  /* line 126, /home/ben/studio/site/source/stylesheets/all.scss */
   h2 {
     font-size: 38px; }
 
-  /* line 113, /home/ben/studio/site/source/stylesheets/all.scss */
+  /* line 129, /home/ben/studio/site/source/stylesheets/all.scss */
   h3 {
     font-size: 18px; }
 
-  /* line 119, /home/ben/studio/site/source/stylesheets/all.scss */
+  /* line 135, /home/ben/studio/site/source/stylesheets/all.scss */
   .navbar-studio .nav li a {
     font-size: 16px;
     padding: 15px 15px 5px 0; }
-  /* line 126, /home/ben/studio/site/source/stylesheets/all.scss */
+  /* line 142, /home/ben/studio/site/source/stylesheets/all.scss */
   .navbar-studio .navbar-text {
     font-size: 10px;
     position: relative;
     left: -15px; } }
-/* line 135, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 151, /home/ben/studio/site/source/stylesheets/all.scss */
 a {
   color: #2c3e50;
   font-weight: bold; }
 
-/* line 141, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 157, /home/ben/studio/site/source/stylesheets/all.scss */
 .blog .navbar-studio {
   background-color: #14AA9F; }
-/* line 144, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 160, /home/ben/studio/site/source/stylesheets/all.scss */
 .blog .main {
   margin-top: 80px; }
 
-/* line 149, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 165, /home/ben/studio/site/source/stylesheets/all.scss */
 .img-rounded {
   margin-bottom: 10px; }
 
-/* line 155, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 171, /home/ben/studio/site/source/stylesheets/all.scss */
 .linza {
   height: 600px;
   background: url(/images/desert.jpg) no-repeat center center fixed;
@@ -8818,7 +8834,7 @@ a {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 164, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 180, /home/ben/studio/site/source/stylesheets/all.scss */
 .linza-min {
   height: 200px;
   background: url(/images/desert.jpg) no-repeat center center fixed;
@@ -8827,18 +8843,18 @@ a {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 173, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 189, /home/ben/studio/site/source/stylesheets/all.scss */
 .content {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-/* line 178, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 194, /home/ben/studio/site/source/stylesheets/all.scss */
 .call_to_action {
   width: 300px;
   margin: auto;
   position: relative;
   top: 200px; }
-  /* line 180, /home/ben/studio/site/source/stylesheets/all.scss */
+  /* line 196, /home/ben/studio/site/source/stylesheets/all.scss */
   .call_to_action .btn-danger {
     background: none;
     border: 3px solid #333;
@@ -8846,22 +8862,22 @@ a {
     font-size: 18px;
     font-weight: bold;
     color: #333; }
-    /* line 187, /home/ben/studio/site/source/stylesheets/all.scss */
+    /* line 203, /home/ben/studio/site/source/stylesheets/all.scss */
     .call_to_action .btn-danger:hover {
       background-color: #333;
       color: #fff; }
 
-/* line 200, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 216, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn-primary {
   background-color: #14AA9F;
   border-color: #14AA9F; }
-  /* line 203, /home/ben/studio/site/source/stylesheets/all.scss */
+  /* line 219, /home/ben/studio/site/source/stylesheets/all.scss */
   .btn-primary:hover {
     background-color: #14AA9F;
     border-color: #14AA9F; }
 
 /* Buttons */
-/* line 212, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 228, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn-big {
   font-size: 18px;
   display: inline-block;
@@ -8873,54 +8889,54 @@ a {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
-/* line 224, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 240, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn:hover,
 .btn:focus {
   color: white; }
 
-/* line 229, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 245, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-blue {
   background: #00a8ff; }
 
-/* line 233, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 249, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-blue:hover {
   background: #31b9ff; }
 
-/* line 237, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 253, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-blue-fill {
   color: #00a8ff;
   border-color: #00a8ff;
   background: transparent; }
 
-/* line 243, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 259, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-blue-fill:hover {
   color: white;
   background: #00a8ff; }
 
-/* line 248, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 264, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-white-fill {
   color: #fff;
   border-color: #fff;
   background: transparent; }
 
-/* line 254, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 270, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-white-fill:hover {
   color: #00a8ff;
   background: #fff; }
 
-/* line 259, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 275, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-gray-fill {
   color: #fff;
   border-color: #fff;
   background: transparent; }
 
-/* line 265, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 281, /home/ben/studio/site/source/stylesheets/all.scss */
 .btn.btn-gray-fill:hover {
   border-color: #bbb;
   background: #bbb; }
 
 /* Footer */
-/* line 273, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 289, /home/ben/studio/site/source/stylesheets/all.scss */
 footer {
   padding: 140px 0 40px;
   background: #333;
@@ -8928,12 +8944,12 @@ footer {
   -webkit-background-size: cover;
   background-size: cover; }
 
-/* line 281, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 297, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .trial-button {
   overflow: hidden !important;
   margin: 40px 0; }
 
-/* line 286, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 302, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .open-blink {
   content: ' ';
   position: relative;
@@ -8950,7 +8966,7 @@ footer .open-blink {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite; }
 
-/* line 303, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 319, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .open-blink:before {
   content: ' ';
   position: absolute;
@@ -8963,35 +8979,35 @@ footer .open-blink:before {
   border-radius: 50%;
   background-color: #4caf50; }
 
-/* line 316, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 332, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .opening-hours {
   margin-top: 60px; }
 
-/* line 320, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 336, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .bottom-footer {
   margin-top: 150px; }
 
-/* line 324, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 340, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .social-footer {
   padding: 0;
   list-style: none; }
 
-/* line 329, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 345, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .social-footer li {
   display: inline-block;
   margin: 0 10px; }
 
-/* line 334, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 350, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .social-footer li a {
   font-size: 24px;
   color: #fff; }
 
-/* line 339, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 355, /home/ben/studio/site/source/stylesheets/all.scss */
 footer .social-footer li:hover a {
   color: #00a8ff; }
 
 /* Form Control */
-/* line 344, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 360, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control {
   font-size: 18px;
   position: relative;
@@ -9002,7 +9018,7 @@ footer .social-footer li:hover a {
   border-radius: 0;
   box-shadow: 0; }
 
-/* line 355, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 371, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control.form-white {
   color: #fff;
   border: 2px solid white;
@@ -9010,28 +9026,28 @@ footer .social-footer li:hover a {
   -webkit-transition: background-color 0.3s;
   transition: background-color 0.3s; }
 
-/* line 363, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 379, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control.form-white::-webkit-input-placeholder {
   /* WebKit browsers */
   color: #fff; }
 
-/* line 368, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 384, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control.form-white:-moz-placeholder {
   opacity: 1;
   /* Mozilla Firefox 4 to 18 */
   color: #fff; }
 
-/* line 374, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 390, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control.form-white::-moz-placeholder {
   opacity: 1;
   /* Mozilla Firefox 19+ */
   color: #fff; }
 
-/* line 380, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 396, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control.form-white:-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: #fff; }
 
-/* line 385, /home/ben/studio/site/source/stylesheets/all.scss */
+/* line 401, /home/ben/studio/site/source/stylesheets/all.scss */
 .form-control.form-white:focus {
   background: rgba(255, 255, 255, 0.2); }
